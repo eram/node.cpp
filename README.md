@@ -3,7 +3,7 @@ A NodsJS-like library for C++
 
 
 # intro
-Writing code in C++11 is great - powerful and fast. But looking at projects I've been involved with, some problems I see repeating again and again, making C++11 a pass for most new projects. After programming in TypeScript/NodeJS I think I not better understand what's wring and how to make a C++ base SDK that is kind of much like NodeJS with TypeScript, and would make coding in C++ much more productive and a modern experience. We need to make is easy for newbies to find their head around and get going fast: 80% of developers only ever use 20% of the language features. 
+Writing code in C++11 is great - powerful and fast. But looking at projects I've been involved with, some problems I see repeating again and again, making C++11 a pass for most new projects. After programming in TypeScript/NodeJS I think I've got a better understanding of what is "wrong" and how to make using C++ a modern productive experience - much like NodeJS with TypeScript. We need to make is easy for newbies to find their head around and get going fast: 80% of developers only ever use 20% of the language features. 
 Manifest:
 - *Multi-threading be gone*. We need a modern event loop. Writing a multi-threaded application properly, protecting data access and synchronizing operations across threads is hard for devs, resulting with a long stabilization process.
 - *Synchronous operations be gone*. Async I/O is easy with lambdas; Thread messages with queueing is so much more efficient. 
