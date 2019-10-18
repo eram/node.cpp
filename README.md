@@ -11,7 +11,7 @@ Manifest:
 - *OS specifics be gone*. WIN32 and POSIX no more! 
 - *Modern:* Strings should be UTF8; JSON-like structures should be built-in; Networking and internet-age encryption should be built-in and easy to use. toString() toHash(); http/s; crypto; websockets etc.
 - *Generics* (template classes) are hard for a lot of developers. We should keep its usage to a minimum on the STD level.
-- *Package manager:* sharing working code is an excellent way to speed up developement. Solving dependencies and clear versioning is key. No DLL hell!
+- *Package manager:* sharing working code is an excellent way to speed up developement. Solving dependencies and clear versioning is key. No DLL hell! Ref: [vcpkg](https://github.com/microsoft/vcpkg)
 - *Enforce coding standards*: use camel casing for methods; properties and variables; Pascal casing for types; All-caps for constants; no type referencing in the name (e.g. no “m_pRectXxx”); clear folder sctructure and include hirarchy as part of the standards.
 - *Ownership of allocated objects* is norm. Use references not pointers whenever possible >> writing code with std::unique_ptr should be the norm. No need to free(), delete etc.
 - Being *opinionated* is good. 
